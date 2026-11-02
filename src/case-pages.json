@@ -1,0 +1,506 @@
+{
+  "live": {
+    "pageCount": 26,
+    "pages": [
+      {
+        "id": "live-01",
+        "page": 1,
+        "title": {
+          "zh": "项目封面",
+          "en": "Project cover"
+        },
+        "src": "assets/cases/live-01.webp",
+        "thumb": "assets/cases/live-01-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "chapter": true
+      },
+      {
+        "id": "live-02",
+        "page": 2,
+        "title": {
+          "zh": "项目背景",
+          "en": "Project background"
+        },
+        "src": "assets/cases/live-02.webp",
+        "thumb": "assets/cases/live-02-thumb.webp",
+        "width": 1920,
+        "height": 3751,
+        "chapter": true
+      },
+      {
+        "id": "live-03",
+        "page": 3,
+        "title": {
+          "zh": "产品现状分析",
+          "en": "Current experience"
+        },
+        "src": "assets/cases/live-03.webp",
+        "thumb": "assets/cases/live-03-thumb.webp",
+        "width": 1920,
+        "height": 1652,
+        "chapter": true
+      },
+      {
+        "id": "live-04",
+        "page": 4,
+        "title": {
+          "zh": "单一视角观看限制",
+          "en": "Single-view limitations"
+        },
+        "src": "assets/cases/live-04.webp",
+        "thumb": "assets/cases/live-04-thumb.webp",
+        "width": 1920,
+        "height": 1240,
+        "chapter": false
+      },
+      {
+        "id": "live-05",
+        "page": 5,
+        "title": {
+          "zh": "互动与身份表达",
+          "en": "Interaction and identity"
+        },
+        "src": "assets/cases/live-05.webp",
+        "thumb": "assets/cases/live-05-thumb.webp",
+        "width": 1920,
+        "height": 2469,
+        "chapter": false
+      },
+      {
+        "id": "live-06",
+        "page": 6,
+        "title": {
+          "zh": "整体体验链路",
+          "en": "Experience journey"
+        },
+        "src": "assets/cases/live-06.webp",
+        "thumb": "assets/cases/live-06-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "chapter": true
+      },
+      {
+        "id": "live-07",
+        "page": 7,
+        "title": {
+          "zh": "直播发现问题",
+          "en": "Content discovery"
+        },
+        "src": "assets/cases/live-07.webp",
+        "thumb": "assets/cases/live-07-thumb.webp",
+        "width": 1920,
+        "height": 1749,
+        "chapter": true
+      },
+      {
+        "id": "live-08",
+        "page": 8,
+        "title": {
+          "zh": "直播发现方案",
+          "en": "Discovery improvements"
+        },
+        "src": "assets/cases/live-08.webp",
+        "thumb": "assets/cases/live-08-thumb.webp",
+        "width": 1920,
+        "height": 2138,
+        "chapter": false
+      },
+      {
+        "id": "live-09",
+        "page": 9,
+        "title": {
+          "zh": "同局视角与观看入口",
+          "en": "Same-match viewing"
+        },
+        "src": "assets/cases/live-09.webp",
+        "thumb": "assets/cases/live-09-thumb.webp",
+        "width": 1920,
+        "height": 1633,
+        "chapter": false
+      },
+      {
+        "id": "live-10",
+        "page": 10,
+        "title": {
+          "zh": "多屏布局规则",
+          "en": "Multi-view layouts"
+        },
+        "src": "assets/cases/live-10.webp",
+        "thumb": "assets/cases/live-10-thumb.webp",
+        "width": 1920,
+        "height": 2981,
+        "chapter": true
+      },
+      {
+        "id": "live-11",
+        "page": 11,
+        "title": {
+          "zh": "焦点与切换规则",
+          "en": "Focus and switching"
+        },
+        "src": "assets/cases/live-11.webp",
+        "thumb": "assets/cases/live-11-thumb.webp",
+        "width": 1920,
+        "height": 3440,
+        "chapter": false
+      },
+      {
+        "id": "live-12",
+        "page": 12,
+        "title": {
+          "zh": "音频与互动反馈",
+          "en": "Audio and feedback"
+        },
+        "src": "assets/cases/live-12.webp",
+        "thumb": "assets/cases/live-12-thumb.webp",
+        "width": 1920,
+        "height": 3690,
+        "chapter": false
+      },
+      {
+        "id": "live-13",
+        "page": 13,
+        "title": {
+          "zh": "多屏画面编辑",
+          "en": "Editing views"
+        },
+        "src": "assets/cases/live-13.webp",
+        "thumb": "assets/cases/live-13-thumb.webp",
+        "width": 1920,
+        "height": 3281,
+        "chapter": false
+      },
+      {
+        "id": "live-14",
+        "page": 14,
+        "title": {
+          "zh": "添加与替换",
+          "en": "Adding and replacing"
+        },
+        "src": "assets/cases/live-14.webp",
+        "thumb": "assets/cases/live-14-thumb.webp",
+        "width": 1920,
+        "height": 2334,
+        "chapter": false
+      },
+      {
+        "id": "live-15",
+        "page": 15,
+        "title": {
+          "zh": "移除与满屏状态",
+          "en": "Removal and capacity"
+        },
+        "src": "assets/cases/live-15.webp",
+        "thumb": "assets/cases/live-15-thumb.webp",
+        "width": 1920,
+        "height": 3263,
+        "chapter": false
+      },
+      {
+        "id": "live-16",
+        "page": 16,
+        "title": {
+          "zh": "交战提醒",
+          "en": "Combat alerts"
+        },
+        "src": "assets/cases/live-16.webp",
+        "thumb": "assets/cases/live-16-thumb.webp",
+        "width": 1920,
+        "height": 1933,
+        "chapter": false
+      },
+      {
+        "id": "live-17",
+        "page": 17,
+        "title": {
+          "zh": "信息延迟策略",
+          "en": "Information delay"
+        },
+        "src": "assets/cases/live-17.webp",
+        "thumb": "assets/cases/live-17-thumb.webp",
+        "width": 1920,
+        "height": 2863,
+        "chapter": false
+      },
+      {
+        "id": "live-18",
+        "page": 18,
+        "title": {
+          "zh": "弹幕设置优化",
+          "en": "Comment settings"
+        },
+        "src": "assets/cases/live-18.webp",
+        "thumb": "assets/cases/live-18-thumb.webp",
+        "width": 1920,
+        "height": 4069,
+        "chapter": true
+      },
+      {
+        "id": "live-19",
+        "page": 19,
+        "title": {
+          "zh": "游戏化互动表达",
+          "en": "Game-based interaction"
+        },
+        "src": "assets/cases/live-19.webp",
+        "thumb": "assets/cases/live-19-thumb.webp",
+        "width": 1920,
+        "height": 3038,
+        "chapter": false
+      },
+      {
+        "id": "live-20",
+        "page": 20,
+        "title": {
+          "zh": "王者荣耀表情弹幕",
+          "en": "Honor of Kings emotes"
+        },
+        "src": "assets/cases/live-20.webp",
+        "thumb": "assets/cases/live-20-thumb.webp",
+        "width": 1920,
+        "height": 5700,
+        "chapter": true
+      },
+      {
+        "id": "live-21",
+        "page": 21,
+        "title": {
+          "zh": "无畏契约表情弹幕",
+          "en": "VALORANT emotes"
+        },
+        "src": "assets/cases/live-21.webp",
+        "thumb": "assets/cases/live-21-thumb.webp",
+        "width": 1920,
+        "height": 5850,
+        "chapter": false
+      },
+      {
+        "id": "live-22",
+        "page": 22,
+        "title": {
+          "zh": "三角洲行动表情弹幕",
+          "en": "Delta Force emotes"
+        },
+        "src": "assets/cases/live-22.webp",
+        "thumb": "assets/cases/live-22-thumb.webp",
+        "width": 1920,
+        "height": 5993,
+        "chapter": false
+      },
+      {
+        "id": "live-23",
+        "page": 23,
+        "title": {
+          "zh": "主播粉丝身份体系",
+          "en": "Fan identity system"
+        },
+        "src": "assets/cases/live-23.webp",
+        "thumb": "assets/cases/live-23-thumb.webp",
+        "width": 1920,
+        "height": 6946,
+        "chapter": true
+      },
+      {
+        "id": "live-24",
+        "page": 24,
+        "title": {
+          "zh": "粉丝身份应用",
+          "en": "Fan identity applications"
+        },
+        "src": "assets/cases/live-24.webp",
+        "thumb": "assets/cases/live-24-thumb.webp",
+        "width": 1920,
+        "height": 2863,
+        "chapter": false
+      },
+      {
+        "id": "live-25",
+        "page": 25,
+        "title": {
+          "zh": "项目复盘",
+          "en": "Reflection"
+        },
+        "src": "assets/cases/live-25.webp",
+        "thumb": "assets/cases/live-25-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "chapter": true
+      },
+      {
+        "id": "live-26",
+        "page": 26,
+        "title": {
+          "zh": "结语",
+          "en": "Closing"
+        },
+        "src": "assets/cases/live-26.webp",
+        "thumb": "assets/cases/live-26-thumb.webp",
+        "width": 1920,
+        "height": 1080,
+        "chapter": false
+      }
+    ]
+  },
+  "mall": {
+    "pageCount": 12,
+    "pages": [
+      {
+        "id": "mall-01",
+        "page": 1,
+        "title": {
+          "zh": "项目封面",
+          "en": "Project cover"
+        },
+        "src": "assets/cases/mall-01.webp",
+        "thumb": "assets/cases/mall-01-thumb.webp",
+        "width": 1920,
+        "height": 1583,
+        "chapter": true
+      },
+      {
+        "id": "mall-02",
+        "page": 2,
+        "title": {
+          "zh": "设计目标",
+          "en": "Design goals"
+        },
+        "src": "assets/cases/mall-02.webp",
+        "thumb": "assets/cases/mall-02-thumb.webp",
+        "width": 1920,
+        "height": 1079,
+        "chapter": true
+      },
+      {
+        "id": "mall-03",
+        "page": 3,
+        "title": {
+          "zh": "AIGC 白模渲染法",
+          "en": "AIGC blockout rendering"
+        },
+        "src": "assets/cases/mall-03.webp",
+        "thumb": "assets/cases/mall-03-thumb.webp",
+        "width": 1920,
+        "height": 2019,
+        "chapter": true
+      },
+      {
+        "id": "mall-04",
+        "page": 4,
+        "title": {
+          "zh": "主视觉设计过程",
+          "en": "Key visual process"
+        },
+        "src": "assets/cases/mall-04.webp",
+        "thumb": "assets/cases/mall-04-thumb.webp",
+        "width": 1920,
+        "height": 2658,
+        "chapter": true
+      },
+      {
+        "id": "mall-05",
+        "page": 5,
+        "title": {
+          "zh": "主视觉与细节展示",
+          "en": "Key visual details"
+        },
+        "src": "assets/cases/mall-05.webp",
+        "thumb": "assets/cases/mall-05-thumb.webp",
+        "width": 1920,
+        "height": 2658,
+        "chapter": true
+      },
+      {
+        "id": "mall-06",
+        "page": 6,
+        "title": {
+          "zh": "闪屏页设计过程",
+          "en": "Splash-screen process"
+        },
+        "src": "assets/cases/mall-06.webp",
+        "thumb": "assets/cases/mall-06-thumb.webp",
+        "width": 1920,
+        "height": 1862,
+        "chapter": true
+      },
+      {
+        "id": "mall-07",
+        "page": 7,
+        "title": {
+          "zh": "闪屏页展示",
+          "en": "Splash-screen designs"
+        },
+        "src": "assets/cases/mall-07.webp",
+        "thumb": "assets/cases/mall-07-thumb.webp",
+        "width": 1920,
+        "height": 2178,
+        "chapter": true
+      },
+      {
+        "id": "mall-08",
+        "page": 8,
+        "title": {
+          "zh": "视觉应用 01",
+          "en": "Visual application 01"
+        },
+        "src": "assets/cases/mall-08.webp",
+        "thumb": "assets/cases/mall-08-thumb.webp",
+        "width": 1920,
+        "height": 991,
+        "chapter": true
+      },
+      {
+        "id": "mall-09",
+        "page": 9,
+        "title": {
+          "zh": "视觉应用 02",
+          "en": "Visual application 02"
+        },
+        "src": "assets/cases/mall-09.webp",
+        "thumb": "assets/cases/mall-09-thumb.webp",
+        "width": 1920,
+        "height": 991,
+        "chapter": true
+      },
+      {
+        "id": "mall-10",
+        "page": 10,
+        "title": {
+          "zh": "视觉应用 03",
+          "en": "Visual application 03"
+        },
+        "src": "assets/cases/mall-10.webp",
+        "thumb": "assets/cases/mall-10-thumb.webp",
+        "width": 1920,
+        "height": 991,
+        "chapter": true
+      },
+      {
+        "id": "mall-11",
+        "page": 11,
+        "title": {
+          "zh": "视觉应用 04",
+          "en": "Visual application 04"
+        },
+        "src": "assets/cases/mall-11.webp",
+        "thumb": "assets/cases/mall-11-thumb.webp",
+        "width": 1920,
+        "height": 991,
+        "chapter": true
+      },
+      {
+        "id": "mall-12",
+        "page": 12,
+        "title": {
+          "zh": "结语",
+          "en": "Closing"
+        },
+        "src": "assets/cases/mall-12.webp",
+        "thumb": "assets/cases/mall-12-thumb.webp",
+        "width": 1920,
+        "height": 1079,
+        "chapter": true
+      }
+    ]
+  }
+}

@@ -1,6 +1,13 @@
 # 白路平作品集：GitHub 中文管理说明
 
-当前连接账号：**Bailllsh**。连接账号不等于已经上传：本轮只准备了代码和自动发布配置，尚未创建仓库、推送文件或公开网站。
+已于 **2026-11-02** 上传并发布到你的账号 **Bailllsh**。
+
+- **分享作品的网站**：[bailllsh.github.io/portfolio](https://bailllsh.github.io/portfolio/)
+- **管理项目的仓库**：[Bailllsh/portfolio](https://github.com/Bailllsh/portfolio)
+- **发布状态**：[Actions](https://github.com/Bailllsh/portfolio/actions)
+- **网站设置**：[Settings → Pages](https://github.com/Bailllsh/portfolio/settings/pages)
+
+发给招聘方的是第一个网站链接，访客不需要登录 GitHub。电脑关机、本地预览停止后，线上网站仍然可用。
 
 ## 三个东西分别是什么
 
@@ -10,7 +17,7 @@
 | GitHub 仓库（Repository） | 保存源代码和修改历史 | 取决于仓库的公开/私有设置 |
 | GitHub Pages | 将构建后的网站变成在线网址 | 发布后可通过网址访问 |
 
-将来会上传到你的账号下，例如 `Bailllsh/portfolio`。实际仓库名称和公开范围在正式发布时确定。你继续在本地修改，不需要在 GitHub 网页里直接写代码。
+项目已经位于你账号下的公开仓库 `Bailllsh/portfolio`，正式分支为 `main`。你继续在本地修改，不需要在 GitHub 网页里直接写代码。公开仓库允许别人查看文件；修改正式版本仍需要你的写入权限。
 
 ## 网页英文怎么对应
 
@@ -28,45 +35,35 @@
 | Pull | 获取远程修改 | 将 GitHub 上的更新同步到本地 |
 | Revert | 撤销某次修改 | 用新记录恢复到修改前的状态 |
 
-## 第一次上传：使用 GitHub Desktop
+## 用 GitHub Desktop 管理已经上传的网站
 
-GitHub Desktop 是 GitHub 官方的桌面客户端，可以用按钮完成保存记录和上传，不必长期使用命令行。下载地址：https://desktop.github.com/download/ 。安装、登录由你操作，使用自己的 Bailllsh 账号；账号连接不会自动把所有本地文件传到网上。
+第一次上传和 Pages 设置已经完成，**不用再创建仓库、执行 git init 或点击 Publish repository**。
 
-项目目录是：
+GitHub Desktop 是 GitHub 官方的桌面客户端，可以用按钮保存记录和上传。下载：[GitHub Desktop](https://desktop.github.com/download/)。首次使用时在客户端登录自己的 **Bailllsh** 账号；Safari 已登录不等于客户端已登录。不需要把密码或验证码发给我。
+
+本地网站目录：
 
 ```text
 /Users/ethan/.codex/.chatgpt-projects/g-p-6a7e7dc2d40c81919df7b4cbfca16041/portfolio-prototypes
 ```
 
-只选择这个网站文件夹，不选择上层整个项目目录。
+1. 在 Desktop 点 **File → Add Local Repository → Choose…**（文件 → 添加本地仓库 → 选择），选上面的网站目录，再点 **Add Repository**。
+2. 确认当前仓库是 **portfolio**，当前分支是 **main**。本地已经关联 `https://github.com/Bailllsh/portfolio.git`。
+3. **Changes** 显示还没保存的改动，**History** 显示已经保存的版本；**View on GitHub** 打开网页管理页。
+4. 如果只想看网站，直接用分享网址，不需要打开 Desktop 或本地终端。
 
-1. 当前网站尚未初始化为 Git 仓库。第一次在 Mac 的终端中运行下面两行，只为网站创建本地修改记录的容器，不会上网或上传文件：
+只选择这个网站目录，不选择上层整个资料目录。
 
-   ```sh
-   cd /Users/ethan/.codex/.chatgpt-projects/g-p-6a7e7dc2d40c81919df7b4cbfca16041/portfolio-prototypes
-   git init -b main
-   ```
+## 网站怎么发布
 
-2. 打开 GitHub Desktop：**File → Add Local Repository → Choose…**（文件 → 添加本地仓库 → 选择），选择上面的网站目录，再点 **Add Repository**。
-3. 在 **Changes**（改动文件）里检查文件；`.gitignore` 已排除依赖、构建输出、预览截图和归档。源码、public中的预览图/简历、字体和自动发布配置应包含在内。
-4. 左下角 **Summary**（本次修改标题）写“作品集首次上线”，点 **Commit to main**（保存本地修改记录）。如第一次要求作者信息，填写自己的名字及 GitHub 账号配置的提交邮箱。
-5. 点 **Publish repository**（上传到 GitHub 创建仓库）。**Name** 建议填 `portfolio`；个人账号的 **Organization** 选 **None**。确认使用的是你的 Bailllsh 账号。
-6. 选择公开范围：GitHub Free 的 Pages 需要 **Public** 仓库，因此使用免费方案时取消 **Keep this code private**（保持代码私有）的勾选。公开仓库里的源码和预览图片可被访问；原始作品PDF仍不上传。如果要私有源码，先核对账户是否支持私有仓库的 Pages。
-7. 点 **Publish Repository**。成功后 **View on GitHub**（在网页查看）会打开你账号里的作品集仓库。
+发布来源已经设为 **Settings → Pages → Source → GitHub Actions**。项目的 `.github/workflows/pages.yml` 会在 `main` 收到更新后自动验证38页作品素材、运行手势测试、构建 React 网站并发布。
 
-仅有 GitHub 网站上的登录状态，不等于 Desktop 已登录；首次使用 Desktop 时仍需完成它自己的登录流程。不需要把密码或验证码发给我。
+- **绿色对勾 / Success**：构建与发布成功，刷新网站查看。
+- **黄色 / In progress / Queued**：正在执行或排队，稍等。
+- **红色 / Failure**：某个步骤失败。点开该次记录看具体步骤，可以把链接发给我排查。
+- **Settings → Pages → Visit site**：打开实际网站。
 
-## 第二步：发布成网站
-
-上传代码和发布网址是两步。React 项目需要先构建，项目已准备 `.github/workflows/pages.yml`，不需要自己把源码逐个改成HTML。
-
-1. 在网站仓库打开 **Settings → Pages → Build and deployment → Source**（设置 → 网站托管 → 构建和部署 → 来源）。
-2. **Source** 选择 **GitHub Actions**。已有发布文件，不必再创建第二份模板。
-3. 打开 **Actions**，选择 **Build and publish portfolio**。若首次上传时尚未开启Pages而失败，设置完成后点 **Run workflow → Run workflow** 手动执行一次。
-4. 等构建与发布都出现绿色对勾。在 **Settings → Pages** 查看实际网址。红色代表失败，可以点进去查看具体失败步骤；黄色代表运行中。
-5. 若仓库名为 `portfolio`，通常网址为 `https://bailllsh.github.io/portfolio/`，以 GitHub 显示为准。这个地址目前只是预期，尚未由本次任务创建或发布。
-
-当前配置在 `main` 分支收到修改后安装依赖、核对公开素材、运行手势测试、构建并发布。图片路径使用相对基础路径，项目详情使用 `#project/live` 等地址，便于放在仓库子目录下。自动发布流程尚未在 GitHub 上实际运行过。
+本次真实线上流程已经运行并通过。首次运行时 Pages 尚未开启而失败，开启后重跑成功；旧红色记录会留在历史里，以最新一次结果为准。不要重复添加 Jekyll 或 Static HTML 模板。
 
 ## 日后修改网站
 
@@ -101,6 +98,6 @@ GitHub Desktop 是 GitHub 官方的桌面客户端，可以用按钮完成保存
 - `public/` 的所有文件都会随网站公开，检查脚本只允许简历 PDF 出现在里面。
 - 作品不提供下载入口，但网页图片仍可能被保存、截图或缓存；在线预览不能构成绝对的防下载保护。公开仓库还会直接展示其中的图片文件。
 - 只上传适合公开展示的内容。原始 PDF、临时文件、旧版原型、node_modules 和 dist 均不需要放进源码仓库。
-- 中文简历目前是你提供的原文件；网站按最新要求写为 2028 届。原简历中的预计毕业时间如需同步，正式上线前应换成更新版。
+- 中文简历目前是你提供的原文件；网站按最新要求写为 2028 届。如原简历中的预计毕业时间仍是旧版，请提供更新版替换，网站不会自动修改 PDF 内容。
 
 官方帮助（2026-11-02核对）：[导入本地仓库](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-a-repository-from-your-local-computer-to-github-desktop)、[上传已有项目](https://docs.github.com/en/desktop/adding-and-cloning-repositories/adding-an-existing-project-to-github-using-github-desktop)、[配置Pages发布](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)、[GitHub Pages 是什么](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)、[Vite 部署说明](https://vite.dev/guide/static-deploy.html)。

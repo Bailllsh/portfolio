@@ -1,6 +1,14 @@
 # 白路平 / Bai Luping — Design Portfolio
 
-React + Vite 本地个人作品集。深炭灰与暖白；英文 Helvetica Neue，中文 HarmonyOS Sans SC。
+React + Vite 个人作品集。深炭灰与暖白；英文 Helvetica Neue，中文 HarmonyOS Sans SC。
+
+## 在线网站
+
+- [打开作品集](https://bailllsh.github.io/portfolio/)：可直接分享给招聘方，无需登录。
+- [GitHub 仓库](https://github.com/Bailllsh/portfolio)：源码、素材和版本记录。
+- [中文管理说明](docs/GitHub中文管理说明.md)：GitHub 页面与日后更新步骤。
+
+已于2026-11-02发布至 GitHub Pages，main 分支更新后由 GitHub Actions 自动验证、构建与发布。
 
 ## 本地预览
 
@@ -53,13 +61,13 @@ Work / 作品、About / 关于、Honors & Awards / 荣誉与奖项、Experience 
 | public/assets/cases/ | 在线阅读的原作WebP与缩略图 |
 | public/downloads/ | 唯一公开PDF：中文简历 |
 | tests/reader-gestures.test.mjs | 手势处理与清理测试 |
-| .github/workflows/pages.yml | 未来GitHub Pages构建、验证和发布配置 |
+| .github/workflows/pages.yml | GitHub Pages构建、验证和自动发布配置 |
 
 ## 素材与发布范围
 
 作品来自用户提供的《白路平就业作品集-抖音游戏直播体验升级.pdf》26页与《白路平-就业作品集-抖音商城潮品狂欢.pdf》12页。输入文件不修改；原始作品PDF不放入public，仅提供站内图片阅读。网站图片仍可被保存、缓存或截图。
 
-简历使用用户提供的原PDF，允许下载；网站教育时间已按用户指定2028届更新，原简历PDF的预计毕业时间需要在正式上线前同步。
+简历使用用户提供的原PDF，允许下载；网站教育时间已按用户指定2028届更新，原简历PDF的预计毕业时间如仍为旧版，需由更新文件替换。
 
 重新生成作品图片（需要Poppler、Pillow、pypdf）：
 
@@ -69,7 +77,7 @@ python3 scripts/prepare-case-assets.py --live '/完整路径/直播项目.pdf' -
 
 英文使用系统本地字体，未嵌入未授权商业Webfont；无Helvetica Neue的设备回退Helvetica/Arial。中文为未修改的HarmonyOS Sans SC原文件，附字体许可。
 
-目前仅本地预览，没有创建GitHub仓库或上传、发布。[GitHub中文管理说明](docs/GitHub中文管理说明.md)解释后续操作。
+已上传至公开仓库Bailllsh/portfolio，并发布至GitHub Pages。[GitHub中文管理说明](docs/GitHub中文管理说明.md)解释后续操作。
 
 省级区块补全浙江省名称，校级条目补全中国美术学院；奖学金优先，其次优秀毕业生、毕设银奖等。两次一等奖学金和两次三好学生按学年拆开，默认展示10条省/校荣誉，展开后共18条记录。
 
